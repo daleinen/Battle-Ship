@@ -28,7 +28,7 @@ ship_row = random_row(board)
 ship_col = random_col(board)
 
 #printing welcome message
-print("Let's play Battleship!")
+print("\nLet's play Battleship!")
 print("You have 5 guesses\n")
 print_board(board)
 
@@ -67,7 +67,7 @@ for turn in range(0,5):
         if turn == 4:
             board[ship_row][ship_col] = "B"
             print_board(board)
-            print("\nGame Over")
+            print("\nGame Over\n")
             break
         #printing board after turn with X    
     print_board(board)
